@@ -106,17 +106,17 @@ body {
 /* ── FOOTER CTA ── */
 .footer-cta {
   background: var(--footer-bg); padding: 80px 40px;
-  text-align: center; border-top: 1px solid var(--border);
+  text-align: center; border-top: 0px solid var(--border);
 }
-.footer-cta p { font-size: clamp(13px,1.5vw,17px); line-height: 1.7; color: var(--text-muted); margin-bottom: 6px; }
+.footer-cta p { font-size: clamp(13px,1.5vw,17px); line-height: 1.2; color: var(--black); margin-bottom: 6px; }
 .footer-cta a { color: var(--black); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
-/* .footer-cta a:hover { opacity: 0.5; } */
+
 
 /* ── FOOTER ── */
 footer {
   background: var(--footer-bg); padding: 28px 40px;
   display: flex; justify-content: space-between; align-items: center;
-  border-top: 1px solid var(--border);
+  border-top: 0px solid var(--border);
 }
 footer .logo-footer { font-size: 13px; letter-spacing: 0.35em; font-weight: 600; color: var(--black); }
 footer .footer-right { display: flex; gap: 40px; }
