@@ -105,10 +105,10 @@ body {
 
 /* ── FOOTER CTA ── */
 .footer-cta {
-  background: var(--footer-bg); padding: 80px 40px;
+  background: var(--footer-bg); padding: 60px 30px;
   text-align: center; border-top: 0px solid var(--border);
 }
-.footer-cta p { font-size: clamp(13px,1.5vw,17px); line-height: 1.2; color: var(--black); margin-bottom: 6px; }
+.footer-cta p { font-size: clamp(13px,1.5vw,30px); line-height: 1.2; color: var(--black); margin-bottom: 6px; }
 .footer-cta a { color: var(--black); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
 
 
