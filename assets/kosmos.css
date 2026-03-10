@@ -100,7 +100,7 @@ body {
   position: absolute; bottom: 0; left: 0; right: 0;
   padding: 10px 16px; background: #fff;
 }
-.img-card-tag { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-bottom: 2px; }
+.img-card-tag { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #000; margin-bottom: 2px; }
 .img-card-name { font-size: 13px; font-weight: 600; color: #000; }
 
 /* ── FOOTER CTA ── */
@@ -110,7 +110,7 @@ body {
 }
 .footer-cta p { font-size: clamp(13px,1.5vw,17px); line-height: 1.7; color: var(--text-muted); margin-bottom: 6px; }
 .footer-cta a { color: var(--black); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
-.footer-cta a:hover { opacity: 0.5; }
+/* .footer-cta a:hover { opacity: 0.5; } */
 
 /* ── FOOTER ── */
 footer {
@@ -120,7 +120,7 @@ footer {
 }
 footer .logo-footer { font-size: 13px; letter-spacing: 0.35em; font-weight: 600; color: var(--black); }
 footer .footer-right { display: flex; gap: 40px; }
-footer .footer-right span { font-size: 11px; font-weight: 400; color: rgba(0,0,0,0.35); }
+footer .footer-right span { font-size: 11px; font-weight: 400; }
 
 /* ── SCROLL REVEAL ── */
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
