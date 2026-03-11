@@ -69,10 +69,10 @@ body {
 .menu-nav-links a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
 .menu-nav-links a.active { text-decoration: underline; text-underline-offset: 4px; }
 .menu-contact {
-  font-size: 14px; line-height: 1.5; color: var(--black);
+  font-size: 16px; line-height: 1.5; color: var(--black);
   border-top: 0px solid var(--border); padding-top: 32px;
 }
-.menu-contact strong { color: #000; display: block; margin-bottom: 2px; font-weight: 600; font-size: 14px; letter-spacing: 0.05em; }
+.menu-contact strong { color: #000; display: block; margin-bottom: 2px; font-weight: 600; font-size: 16px; letter-spacing: 0.05em; }
 .menu-contact .contact-block { margin-bottom: 20px; }
 .menu-contact a { color: var(--black); text-decoration: none; }
 .menu-contact a:hover { color: #000; }
