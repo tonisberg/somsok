@@ -129,8 +129,8 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 /* ── ABOUT ROW (shared across pages) ── */
 .about-row {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: 60px; padding: 40px 40px 80px;
-  border-top: 1px solid var(--border);
+  gap: 60px; padding: 40px 0 40px 0;
+  border-top: 0px solid var(--border);
 }
 .about-link {
   font-size: 16px; color: var(--black);
