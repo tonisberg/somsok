@@ -280,7 +280,7 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 ══════════════════════════════ */
 .hero-section { padding: 48px 40px 72px; border-bottom: 1px solid var(--border); }
 .hero-section h1 { font-size: clamp(22px, 3.5vw, 30px); font-weight: 600; line-height: 1.1; letter-spacing: -0.025em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; max-width: 520px; margin-bottom: 72px; }
-.services-headline { padding: 64px 40px 30px; border-bottom: 1px solid var(--border); }
+.services-headline { padding: 64px 40px; border-bottom: 0px solid var(--border); }
 .services-headline h2 { font-size: clamp(18px, 2.8vw, 30px); font-weight: 600; line-height: 1.15; letter-spacing: -0.02em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; max-width: 600px; }
 
 .accordion-list { border-bottom: 1px solid var(--border); }
@@ -418,7 +418,6 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 
   /* teenused */
   .hero-section { padding: 40px 24px 56px; }
-  .services-headline { padding: 48px 24px 48px 36px; }
   .accordion-trigger { padding: 18px 24px; }
   .accordion-content { grid-template-columns: 1fr; padding: 0 24px 40px; gap: 28px; }
   .acc-list { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 24px; }
