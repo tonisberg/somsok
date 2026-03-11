@@ -418,7 +418,7 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 
   /* teenused */
   .hero-section { padding: 40px 24px 56px; }
-  .services-headline { padding: 48px 24px 36px; }
+  .services-headline { padding: 48px 24px 48px 36px; }
   .accordion-trigger { padding: 18px 24px; }
   .accordion-content { grid-template-columns: 1fr; padding: 0 24px 40px; gap: 28px; }
   .acc-list { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 24px; }
