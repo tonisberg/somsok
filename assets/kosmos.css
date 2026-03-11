@@ -287,7 +287,7 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 .accordion-item { border-top: 1px solid var(--border); }
 .accordion-trigger { width: 100%; background: none; border: none; display: flex; align-items: center; justify-content: space-between; padding: 22px 40px; cursor: pointer; text-align: left; transition: background 0.15s; }
 /* .accordion-trigger:hover { background: rgba(0,0,0,0.02); } */
-.accordion-trigger span { font-size: 16px; font-weight: 600; color: var(--black); letter-spacing: -0.01em; }
+.accordion-trigger span { font-size: 18px; font-weight: 600; color: var(--black); letter-spacing: -0.01em; }
 .accordion-icon { width: 20px; height: 20px; flex-shrink: 0; position: relative; margin-left: 24px; }
 .accordion-icon::before, .accordion-icon::after { content: ''; position: absolute; background: var(--black); border-radius: 1px; transition: transform 0.35s cubic-bezier(0.77,0,0.175,1), opacity 0.35s; }
 .accordion-icon::before { width: 24px; height: 1.5px; top: 50%; left: 50%; transform: translate(-50%,-50%); }
