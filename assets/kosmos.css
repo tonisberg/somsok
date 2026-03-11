@@ -329,7 +329,7 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 .person-contact { font-size: 10px; color: var(--text-muted); }
 .person-contact a { color: var(--text-muted); text-decoration: none; }
 .person-contact a:hover { color: #000; text-decoration: underline; }
-.person-expand { position: absolute; top: 14px; right: 14px; width: 22px; height: 22px; border: 1.5px solid rgba(255,255,255,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.2); transition: background 0.2s, border-color 0.2s; }
+.person-expand { position: absolute; top: 14px; right: 14px; width: 22px; height: 22px; border: 0 solid rgba(255,255,255,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.0); transition: background 0.2s, border-color 0.2s; }
 .person-expand::before, .person-expand::after { content: ''; position: absolute; background: #fff; }
 .person-expand::before { width: 10px; height: 1.5px; }
 .person-expand::after { width: 1.5px; height: 10px; transition: transform 0.3s, opacity 0.3s; }
