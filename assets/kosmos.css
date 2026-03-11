@@ -361,11 +361,11 @@ footer .footer-right span { font-size: 12px; font-weight: 400; }
 ══════════════════════════════ */
 .kontakt-page { padding-top: 100px; }
 .top-section { position: relative; padding: 56px 40px 80px; border-bottom: 1px solid var(--border); min-height: 260px; }
-.top-headline h1 { font-size: clamp(28px, 4.5vw, 44px); font-weight: 600; line-height: 1.05; letter-spacing: -0.03em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 2px; color: var(--black); max-width: 55%; }
+.top-headline h1 { font-size: clamp(28px, 4.5vw, 44px); font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; color: var(--black); max-width: 55%; }
 .top-contacts { position: absolute; top: 56px; right: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px 48px; width: 42%; }
 .contact-person strong { display: block; font-size: 13px; font-weight: 600; color: var(--black); text-decoration: underline; text-underline-offset: 3px; margin-bottom: 6px; }
-.contact-person p { font-size: 13px; line-height: 1.8; color: var(--text-muted); }
-.contact-person a { color: var(--text-muted); text-decoration: none; }
+.contact-person p { font-size: 13px; line-height: 1.8; color: var(---black); }
+.contact-person a { color: var(--black); text-decoration: none; }
 .contact-person a:hover { color: var(--black); text-decoration: underline; text-underline-offset: 3px; }
 .social-links { font-size: 13px; line-height: 1.8; }
 .social-links a { display: block; color: var(--black); text-decoration: none; font-weight: 400; }
